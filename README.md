@@ -9,7 +9,9 @@ Before pushing the app to DataRobot, give it a spin locally via
 
 `streamlit run app/app.py`
 
-This will require the following environment variables:
+Recommended -> create a virtual environment and `pip install -r ./app/requirements.txt` as well as streamlit.  
+
+You will also need the following environment variables set:
 * `DATAROBOT_API_TOKEN`
 * `DATAROBOT_ENDPOINT`
 
